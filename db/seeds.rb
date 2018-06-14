@@ -21,4 +21,12 @@ jack = User.new(
   password: "123456"
   )
 jack.save!
+
+joe = User.new(
+  first_name: "Joe",
+  last_name: "Dalton",
+  email: "joedalton@gmail.com",
+  password: "123456"
+  )
+joe.save!
 puts 'Finished!'
