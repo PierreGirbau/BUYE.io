@@ -1,1 +1,15 @@
 // Specific CSS for your home-page
+.content {
+ /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  height: calc(100vh - 70px);
+  margin-top: 90px;
+}
+.title {
+  background: white;
+  padding: 25px;
+  width: 1000px;
+  margin: 0 auto;
+  h1 {
+    font-weight: bold;
+  }
+}
