@@ -9,14 +9,16 @@ puts 'Creating Users...'
 john = User.new(
   first_name: "John",
   last_name: "Doe",
-  email: "john@doe.com"
+  email: "john@doe.com",
+  password: "123456"
   )
 john.save!
 
 jack = User.new(
   first_name: "Jack",
   last_name: "Doe",
-  email: "jack@doe.com"
+  email: "jack@doe.com",
+  password: "123456"
   )
 jack.save!
 puts 'Finished!'
