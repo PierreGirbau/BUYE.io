@@ -6,10 +6,22 @@
 }
 .title {
   background: white;
-  padding: 25px;
-  width: 1000px;
-  margin: 0 auto;
+  margin-bottom: 40px;
   h1 {
     font-weight: bold;
+    font-size: 60px;
+  }
+}
+.description {
+  font-size: 26px;
+  font-weight: lighter;
+  text-align: justify;
+}
+@media(max-width: 720px) {
+  .title h1 {
+    font-size: 22px;
+  }
+  .description {
+    font-size: 16px;
   }
 }
