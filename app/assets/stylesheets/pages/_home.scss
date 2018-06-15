@@ -6,10 +6,36 @@
 }
 .title {
   background: white;
-  padding: 25px;
-  width: 1000px;
-  margin: 0 auto;
+  margin-bottom: 40px;
   h1 {
     font-weight: bold;
+    font-size: 60px;
   }
+}
+.description {
+  font-size: 26px;
+  font-weight: lighter;
+  text-align: justify;
+}
+@media(max-width: 720px) {
+  .title h1 {
+    font-size: 22px;
+  }
+  .description {
+    font-size: 16px;
+  }
+}
+.grid {
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50%;
+}
+.callToAction {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 1;
+}
+.videoPlayer {
+  grid-row: 1 / span 1;
+  grid-column: 6 / span 1;
 }
