@@ -69,7 +69,8 @@
 }
 .boxTelegram:hover, .boxMailingList:hover {
   opacity: 1;
-  color: white;
+  color: $green;
+  background: $white;
 }
 .videoPlayer {
   grid-row: 1 / span 1;
