@@ -3,19 +3,23 @@
   color: $black;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  height: 100px;
+  justify-content: space-around;
+  height: 200px;
   padding: 0px 50px;
+  p {
+    font-size: 18px;
+    font-weight: bold;
+  }
 }
 .footer-links {
-  display: flex;
+  display: inline-block;
   align-items: center;
 }
 .footer-links a {
   color: black;
-  opacity: 0.15;
+  opacity: 0.5;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 16px;
   padding: 0px 10px;
 }
 .footer-links a:hover {
@@ -28,3 +32,23 @@
 .footer-copyright {
   text-align: center;
 }
+.about, {
+  margin-top: -100px;
+}
+.gitHub, .medium, .telegramLink, .twitter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
