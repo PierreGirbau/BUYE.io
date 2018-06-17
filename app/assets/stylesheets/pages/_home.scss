@@ -99,6 +99,30 @@
     font-weight: lighter;
   }
 }
+.arrow {
+  grid-row: 1 / span 1;
+  grid-column: 3 / span 1;
+  justify-self: end;
+  align-self: end;
+
+}
+.fa-chevron-down {
+  transform: translatey(0px);
+  animation: float 2s ease-in-out infinite;
+  color: $green;
+  font-size: 40px;
+}
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
 
 
 
