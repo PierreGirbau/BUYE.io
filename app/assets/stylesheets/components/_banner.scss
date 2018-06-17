@@ -1,0 +1,119 @@
+.title {
+  background: white;
+  margin-bottom: 40px;
+  h1 {
+    font-weight: bold;
+    font-size: 60px;
+  }
+}
+.description {
+  font-size: 26px;
+  font-weight: lighter;
+  text-align: justify;
+}
+@media(max-width: 720px) {
+  .title h1 {
+    font-size: 22px;
+  }
+  .description {
+    font-size: 16px;
+  }
+}
+.grid {
+  display: grid;
+  margin-top: 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 90% 10%;
+}
+.callToAction {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 1;
+  text-align: center;
+  white-space: nowrap;
+  background: $green;
+  padding: 25px 20px 30px 20px;
+  border-radius: 6px;
+  p {
+    font-family: Roboto;
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+}
+.telegram {
+  padding-bottom: 15px;
+}
+.boxTelegram, .boxMailingList {
+  color: $white;
+  font-size: 22px;
+  font-family: Roboto;
+  text-align: center;
+  border-radius: 6px;
+  border: 2px solid $white;
+  background: $green;
+  transition: background 0.3s ease;
+  p {
+    padding-top: 10px;
+  }
+}
+.boxTelegram {
+  padding: 5px 15px;
+}
+.boxMailingList {
+  padding: 5px 10px;
+}
+.boxTelegram:hover, .boxMailingList:hover {
+  opacity: 1;
+  color: $green;
+  background: $white;
+}
+.videoPlayer {
+  grid-row: 1 / span 1;
+  grid-column: 6 / span 1;
+  border-radius: 120px;
+  margin: 0px 30px 60px 30px;
+  text-align: center;
+  background: $green;
+  font-size: 40px;
+  .fas {
+    color: white;
+    margin-top: 42px;
+    margin-left: 10px;
+  }
+}
+.videoText {
+  grid-row: 2 / span 1;
+  grid-column: 6 / span 1;
+  text-align: center;
+  white-space: nowrap;
+  margin-top: -35px;
+  p {
+    margin-bottom: 1px;
+  }
+  .minutes {
+    font-weight: lighter;
+  }
+}
+.arrow {
+  grid-row: 1 / span 1;
+  grid-column: 3 / span 1;
+  justify-self: end;
+  align-self: end;
+
+}
+.fa-chevron-down {
+  transform: translatey(0px);
+  animation: float 2s ease-in-out infinite;
+  color: $green;
+  font-size: 40px;
+}
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
