@@ -1,16 +1,32 @@
 .keyTitle {
-  margin: 0 auto;
+  height: calc(35vh - 70px);
+  margin: 70px auto -65px auto;
   width: 40%;
   white-space: nowrap;
   h1 {
     font-weight: bold;
-    font-size: 60px;
+    font-size: 54px;
   }
 }
 .keyConcepts {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 95px;
   h2 {
     font-size: 18px;
+    font-weight: bold;
+    text-align: center;
   }
+  p {
+    width: 240px;
+    font-size: 14px;
+  }
+}
+.roundedImage {
+  border-radius: 50%;
+  padding: 30px;
+}
+.keyArrow {
+  margin: 0 auto;
+  width: 5%;
 }
