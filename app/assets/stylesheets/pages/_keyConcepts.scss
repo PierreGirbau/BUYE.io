@@ -1,6 +1,6 @@
 .keyTitle {
   height: calc(35vh - 70px);
-  margin: 70px auto -65px auto;
+  margin: 90px auto -65px auto;
   width: 40%;
   white-space: nowrap;
   h1 {
@@ -11,7 +11,7 @@
 .keyConcepts {
   display: flex;
   justify-content: space-around;
-  padding-bottom: 95px;
+  padding-bottom: 100px;
   h2 {
     font-size: 18px;
     font-weight: bold;
@@ -27,6 +27,6 @@
   padding: 30px;
 }
 .keyArrow {
-  margin: 0 auto;
+  margin: -15px auto 30px auto;
   width: 5%;
 }
