@@ -1,10 +1,14 @@
-.evolutionTitle {
-  margin: 70px auto 0 auto;
-  width: 22%;
+#evolution:before {
+  display: block;
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
+}.evolutionTitle {
+  text-align: center;
+  white-space: nowrap;
   h1 {
     font-weight: bold;
     font-size: 54px;
-    margin-bottom: 0px;
   }
 }
 .background {
@@ -15,6 +19,6 @@
   width: 78%;
 }
 .evolutionArrow {
-  margin: -15px auto 30px auto;
+  margin: 60px auto 30px auto;
   width: 5%;
 }

@@ -1,14 +1,21 @@
+#platform:before {
+  display: block;
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
+}
 .platformTitle {
-  margin: 70px auto 0 auto;
-  width: 22%;
+  margin-top: 5px;
+  text-align: center;
+  white-space: nowrap;
   h1 {
     font-weight: bold;
     font-size: 54px;
-    margin-bottom: 0px;
   }
 }
 .background {
   display: block;
+  margin-top: -20px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 20px;
