@@ -1,0 +1,21 @@
+#prototype:before {
+  display: block;
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
+}
+.prototypeTitle {
+  text-align: center;
+  white-space: nowrap;
+  h1 {
+    font-weight: bold;
+    font-size: 54px;
+  }
+}
+p {
+  text-align: center;
+}
+.prototypeArrow {
+  margin: -15px auto 30px auto;
+  width: 5%;
+}
