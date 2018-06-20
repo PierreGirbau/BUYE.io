@@ -1,10 +1,10 @@
-#key:before {
+#team:before {
   display: block;
   margin-top: -75px;
   height: 75px;
   visibility: hidden;
 }
-.keyTitle {
+.teamTitle {
   text-align: center;
   white-space: nowrap;
   h1 {
@@ -12,11 +12,14 @@
     font-size: 54px;
   }
 }
-.keyConcepts {
+p {
+  text-align: center;
+}
+.teamMembers {
+  padding-top: 50px;
+  padding-bottom: 100px;
   display: flex;
   justify-content: space-around;
-  padding-bottom: 40px;
-  padding-top: 20px;
   h2 {
     font-size: 18px;
     font-weight: bold;
@@ -31,7 +34,13 @@
   border-radius: 50%;
   padding: 30px;
 }
-.keyArrow {
-  margin: 0px auto 30px auto;
+.teamArrow {
+  margin: -15px auto 30px auto;
   width: 5%;
+}
+.CEO, .CTO, .IOT {
+  h2,p {
+  margin: 0;
+  padding: 0;
+  }
 }
