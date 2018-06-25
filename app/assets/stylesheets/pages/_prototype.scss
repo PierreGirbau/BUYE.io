@@ -18,10 +18,6 @@ hr {
   background-color: $green;
   border: none;
 }
-.prototypeArrow {
-  margin: -50px auto 30px auto;
-  width: 5%;
-}
 .prototypeGrid {
   display: grid;
   grid-template-columns: 33% 1fr 1fr;
@@ -40,6 +36,10 @@ hr {
     text-align: left;
     font-size: 14px;
   }
+}
+.touch {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
 }
 .beta {
   grid-column: 3 / span 1;
@@ -74,4 +74,8 @@ hr {
   color: $green;
   background: $white;
   border: 2px solid $green;
+}
+.prototypeArrow {
+  margin: -50px auto 30px auto;
+  width: 5%;
 }
