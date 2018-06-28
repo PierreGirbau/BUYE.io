@@ -1,3 +1,7 @@
+.prototypeContent {
+  background:linear-gradient(140deg, $white, $white 55%, $background-gray 55%, $background-gray);
+  padding-top: 10px;
+}
 #prototype:before {
   display: block;
   margin-top: -75px;
@@ -56,7 +60,6 @@ input#mc-embedded-subscribe.button, .betaButton {
   font-size: 22px;
   font-family: Roboto;
   text-align: center;
-  border: 2px solid $white;
   background: $green;
   transition: background 0.3s ease;
 }

@@ -1,3 +1,7 @@
+.betaContent {
+  background:linear-gradient(140deg, $white, $white 55%, $background-gray 55%, $background-gray);
+  padding-top: 10px;
+}
 #beta:before {
   display: block;
   margin-top: -75px;
@@ -12,6 +16,9 @@
     font-weight: bold;
     font-size: 48px;
   }
+}
+img {
+  mix-blend-mode: multiply;
 }
 .carouselContent {
   max-width: 980px;
@@ -31,6 +38,6 @@
   color: $green;
 }
 .betaArrow {
-  margin: 10px auto 30px auto;
+  margin: 15px auto 30px auto;
   width: 5%;
 }

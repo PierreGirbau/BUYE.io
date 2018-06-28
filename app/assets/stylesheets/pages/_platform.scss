@@ -1,3 +1,7 @@
+.platformContent {
+  background:linear-gradient(140deg, $white, $white 55%, $background-gray 55%, $background-gray);
+  padding-top: 10px;
+}
 #platform:before {
   display: block;
   margin-top: -75px;
@@ -13,6 +17,9 @@
     font-weight: bold;
     font-size: 48px;
   }
+}
+img {
+  mix-blend-mode: multiply;
 }
 .background {
   display: block;
