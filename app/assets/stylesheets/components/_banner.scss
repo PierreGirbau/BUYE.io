@@ -94,11 +94,8 @@
   }
 }
 .arrow {
-  grid-row: 2 / span 1;
-  grid-column: 3 / span 1;
-  justify-self: end;
-  align-self: end;
-
+  margin: 0px auto 30px auto;
+  width: 5%;
 }
 .fa-chevron-down {
   transform: translatey(0px);
