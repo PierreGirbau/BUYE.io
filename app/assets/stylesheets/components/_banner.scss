@@ -1,6 +1,12 @@
+.content {
+  height: calc(100vh - 70px);
+  width:100vw;
+  background:linear-gradient(140deg, $white, $white 55%, $background-gray 55%, $background-gray);
+}
 .title {
   background: white;
   margin-bottom: 40px;
+  background: transparent;
   h1 {
     font-weight: bold;
     font-size: 60px;

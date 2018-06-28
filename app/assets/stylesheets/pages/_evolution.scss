@@ -1,3 +1,7 @@
+.evolutionContent {
+  background:linear-gradient(140deg, $white, $white 55%, $background-gray 55%, $background-gray);
+  padding-top: 10px;
+}
 #evolution:before {
   display: block;
   margin-top: -75px;
@@ -11,6 +15,9 @@
     font-size: 48px;
   }
 }
+img {
+  mix-blend-mode: multiply;
+}
 .background {
   display: block;
   margin-left: auto;
@@ -19,6 +26,6 @@
   width: 78%;
 }
 .evolutionArrow {
-  margin: 60px auto 30px auto;
+  margin: 75px auto 30px auto;
   width: 5%;
 }

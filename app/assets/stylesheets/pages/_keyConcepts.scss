@@ -1,3 +1,6 @@
+.keyContent {
+  background:linear-gradient(140deg, $white, $white 55%, $background-gray 55%, $background-gray);
+}
 #key:before {
   display: block;
   margin-top: -75px;
@@ -32,6 +35,6 @@
   padding: 30px;
 }
 .keyArrow {
-  margin: 0px auto 30px auto;
+  margin: 20px auto 30px auto;
   width: 5%;
 }

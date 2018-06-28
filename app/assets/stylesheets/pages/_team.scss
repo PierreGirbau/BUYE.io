@@ -1,3 +1,7 @@
+.teamContent {
+  background:linear-gradient(140deg, $white, $white 55%, $background-gray 55%, $background-gray);
+  padding-top: 10px;
+}
 #team:before {
   display: block;
   margin-top: -75px;
