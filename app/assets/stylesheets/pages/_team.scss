@@ -20,8 +20,8 @@ p {
   text-align: center;
 }
 .teamMembers {
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding-top: 20px;
+  padding-bottom: 40px;
   display: flex;
   justify-content: space-around;
   h2 {
@@ -38,9 +38,30 @@ p {
   border-radius: 50%;
   padding: 30px;
 }
+.boxBoard {
+  display: table;
+  margin: 0 auto;
+  padding: 5px 15px;
+  z-index: 2;
+  color: $white;
+  font-size: 22px;
+  font-family: Roboto;
+  text-align: center;
+  border-radius: 6px;
+  background: $green;
+  transition: background 0.3s ease;
+  p {
+    padding-top: 10px;
+  }
+}
+.boxBoard:hover {
+  opacity: 1;
+  color: $white;
+  background: $over-green;
+}
 .teamArrow {
-  margin: -15px auto 30px auto;
-  width: 5%;
+  display: table;
+  margin: 50px auto 30px auto;
 }
 .CEO, .CTO, .IOT {
   h2,p {
