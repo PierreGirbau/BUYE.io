@@ -31,7 +31,16 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 90% 10%;
 }
+#cross {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+#cross:hover {
+  color: white;
+}
 .callToAction {
+  position: relative;
   position: fixed;
   z-index: 1;
   grid-row: 1 / span 1;
