@@ -28,7 +28,7 @@ hr {
   grid-template-rows: 33% 1fr 1fr;
   padding-bottom: 50px;
   h2 {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 600;
   }
 }
@@ -38,7 +38,7 @@ hr {
   justify-self: start;
   p {
     text-align: left;
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 .mailChimp {
@@ -90,6 +90,6 @@ input#mc-embedded-subscribe.button:hover, .betaButton:hover {
   padding-top: 20px;
 }
 .prototypeArrow {
-  margin: -130px auto 30px auto;
+  margin: -170px auto 30px auto;
   display: table;
 }
