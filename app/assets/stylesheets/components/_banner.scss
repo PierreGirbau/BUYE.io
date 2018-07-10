@@ -77,7 +77,9 @@
 .videoPlayer {
   grid-row: 1 / span 1;
   grid-column: 6 / span 1;
-  border-radius: 120px;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
   margin: 0px 30px 60px 30px;
   text-align: center;
   background: $green;
