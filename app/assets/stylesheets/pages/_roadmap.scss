@@ -1,0 +1,31 @@
+.roadmapContent {
+  background:linear-gradient(140deg, $white, $white 55%, $background-gray 55%, $background-gray);
+  padding-top: 10px;
+}
+#roadmap:before {
+  display: block;
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
+}.roadmapTitle {
+  text-align: center;
+  white-space: nowrap;
+  h1 {
+    font-weight: bold;
+    font-size: 48px;
+  }
+}
+img {
+  mix-blend-mode: multiply;
+}
+.background {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  width: 78%;
+}
+.roadmapArrow {
+  margin: 15px auto 30px auto;
+  display: table;
+}
