@@ -32,10 +32,10 @@ img {
 }
 #myCarousel {
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 .glyphicon {
-  color: $green;
+  color: $black;
 }
 .betaArrow {
   margin: 15px auto 30px auto;
