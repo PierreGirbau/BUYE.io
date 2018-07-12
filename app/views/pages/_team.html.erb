@@ -32,8 +32,41 @@
         <p>Ecole 42</p>
       </div>
     </div>
+    <!-- Large modal -->
     <div class="advisor">
-      <%= link_to "See our advisor board", "#advisor", class: "boxBoard" %>
+      <button type="button" class="btn boxBoard" data-toggle="modal" data-target=".bd-example-modal-lg">See our advisor board</button>
+      <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="teamTitle">
+              <h1>Advisor board</h1>
+            </div>
+            <div class="teamMembers">
+              <div class="Advisor1">
+                <div class="picto">
+                  <%= image_tag("picto.png", :alt => "picto", :class => "roundedImage") %>
+                </div>
+                <h2>Advisor One</h2>
+                <p>Advisor</p>
+              </div>
+              <div class="Advisor2">
+                <div class="picto">
+                  <%= image_tag("picto.png", :alt => "picto", :class => "roundedImage") %>
+                </div>
+                <h2>Advisor Two</h2>
+                <p>Advisor</p>
+              </div>
+              <div class="Advisor3">
+                <div class="picto">
+                  <%= image_tag("picto.png", :alt => "picto", :class => "roundedImage") %>
+                </div>
+                <h2>Advisor Three</h2>
+                <p>Advisor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="teamArrow">
       <a href="#prototype"><i class="fas fa-chevron-down"></i></a>

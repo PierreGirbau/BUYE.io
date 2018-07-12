@@ -2,8 +2,15 @@
 <script>
 $(document).ready(function(){
   $("#cross").click(function(){
-      $("#callToAction").toggle();
+    $("#callToAction").toggle();
   });
+});
+</script>
+
+<script> $(window).on('scroll', function () {
+  const pixs = $(document).scrollTop()
+    pixs = pixs / 100;
+      $(".content").css({"-webkit-filter": "blur("+pixs+"px)","filter": "blur("+pixs+"px)" })
 });
 </script>
 
